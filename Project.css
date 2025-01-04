@@ -1,0 +1,750 @@
+body{
+    background-color: black;
+}
+nav{
+   display: grid;
+   background-color: black;
+   grid-template-columns: repeat(2,1fr);
+}
+.List-of-left-side>img{
+      width: 40px;
+    height: 30px;
+}
+.List-of-left-side{
+    padding: 20px 0px 0px 60px;
+
+}
+.List-of-rightSide>ul{
+    display: flex;
+    gap: 100px;
+    font-size: 20px;
+    list-style-type: none;
+    
+}
+.List-of-rightSide>ul>li>a{
+    color: gray;
+    text-decoration: none;
+}
+.List-of-rightSide{
+    margin-left: 60px;
+}
+.List-of-rightSide>ul>li>a:hover{
+    color:white;
+    font-size: 21px;
+}
+.First-Page{
+    padding-top: 8%;
+    padding-left: 100px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.Heading{
+    display: flex;
+    gap: 3px;
+}
+.for-line{
+    width: 90px;
+    border-bottom: 2px solid rgb(157, 0, 200);
+    margin-bottom: 7px;
+}
+.I-am-heading{
+    font-size: 22px;
+    color: white;
+}
+
+.Daisy-heading>h1{
+color: white;
+font-size: 100px;
+}
+.Daisy-heading{
+    margin-top: -80px;
+}
+.Murillo-content{
+    display: flex;
+    gap: 3px;
+    margin-top: -40px;
+
+}
+.Murillo>h1{
+    font-size: 100px;
+    color: rgb(157, 0, 200);
+}
+.arrow-img-first>img{
+    width: 40px;
+    height: 40px;
+}
+.Murillo{
+    margin-top: -130px;
+}
+.Left-Side{
+    padding-left: 10%;
+}
+.Left-Side>p{
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    margin-top: -80px;
+    font-style: normal;
+}
+.Right-side>img{
+    margin-left: -120px;
+   margin-top: -70px;
+   transition: transform 0.25 ease-out;
+}
+.Right-side>img:hover{
+     transform: scale(1.1);
+}
+
+/* second page */
+.Second-page{
+    
+    background-color: black;
+    margin-top:10% ;
+    display: flex;
+     justify-content: space-between;
+}
+.Upper-containt{
+    padding-top: 7%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.Somthing{
+    display: flex;
+    gap: 3px;
+}
+.Empty-space{
+    width: 90px;
+    border-bottom: 2px solid rgb(157, 0, 200);
+    margin-bottom: 7px;
+}
+.Somthing-h{
+    font-size: 22px;
+    color: white;
+}
+.First-one>h1{
+    font-size: 80px;
+    color: white;
+    margin-top: -7px;
+}
+.me{
+    display: flex;
+    gap: 4px;
+    margin-top: -30px;
+}
+.ME-h{
+    color: blueviolet;
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: -30px;
+}
+.Arrow-img-two>img{
+    width: 40px;
+    height: 40px;
+}
+.First-one>p{
+    color: white;
+    font-style: normal;
+    line-height: 33px;
+    font-size: 22px;
+}
+.Second-One{
+    margin-left: 40%;
+    width: 280px;
+    height: 340px;
+    background-color: rgb(25, 25, 25);
+}
+.Second-One>h1{
+  padding-top: 100px;
+  font-size: 70px;
+  font-weight: 900;
+  color: rgb(113, 43, 226);
+  padding-left: 10px;
+}
+.Second-One>p{
+    font-size: 20px;
+    color:white;
+    padding-left: 20px;
+    margin-top: -60px;
+  }
+  .Third-one>h1{
+   
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 900;
+    color: rgb(113, 43, 226);
+    padding-left: 10px;
+  }
+.Third-one>p{
+      font-size: 20px;
+      color:white;
+      padding-left: 20px;
+      margin-top: -60px;
+    }
+
+.Third-one{
+    margin-left: 20%;
+        width: 280px;
+        height: 340px;
+        background-color: rgb(25, 25, 25);
+}
+
+.Fourth-one>h1{
+    padding-top: 100px;
+    font-size: 70px;
+    font-weight: 900;
+    color: rgb(113, 43, 226);
+    padding-left: 10px;
+  }
+.Fourth-one>p{
+      font-size: 20px;
+      color:white;
+      padding-left: 20px;
+      margin-top: -60px;
+    }
+
+.Fourth-one{
+        width: 280px;
+        height: 340px;
+        background-color: rgb(25, 25, 25);
+    }
+    hr{
+        height: 2px;
+        background-color: blueviolet;
+        border: none;
+        margin-top: 50px;
+    }
+    .below-content{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .First-box>h1{
+         color: white;
+         font-style: normal;
+    }
+    .First-box>p{
+        color: white;
+        font-size: 20px;
+    }
+ .Second-One{
+ transition: transform 0.25 ease-out;
+}
+.Second-One:hover{
+     transform: scale(1.1);
+}
+
+.Third-one-One{
+    transition: transform 0.25 ease-out;
+   }
+   .Third-one:hover{
+        transform: scale(1.1);
+   }
+
+   .Fourth-one{
+    transition: transform 0.25 ease-out;
+   }
+   .Fourth-one:hover{
+        transform: scale(1.1);
+   }
+    .Second-box>h1{
+        color: white;
+        font-style: normal;
+   }
+   .Second-box>p{
+       color: white;
+       font-size: 20px;
+   }
+
+   .Third-box>h1{
+    color: white;
+    font-style: normal;
+}
+.Third-box>p{
+   color: white;
+   font-size: 20px;
+}
+.img-of-flow>img{
+    height: 100%;
+}
+
+
+.Fourth-page{
+    margin-top: 5%;
+    display: flex;
+   
+}
+.contact-header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.form-right-side{
+    margin-left: 15%;
+    width: 80%;
+}
+.side-line{
+    width: 80px;
+    height: 20px;
+    border-bottom: 2px solid rgb(43, 162, 226);
+}
+.contact-flex{
+    display: flex;
+    gap: 10px;
+}
+.contact-heading-form{
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+}
+.image-of-arrow-contact{
+    margin-top: 2%;
+}
+.Icons>ul{
+    display: flex;
+    gap: 40px;
+    font-size: 40px;
+   
+   
+}
+.Icons>ul>li{
+    background-color: white;
+    list-style-type: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 35px;
+  padding: 10px 0px 0px 12px;
+  
+}
+.Icons>ul>li>a{
+    color: black;
+}
+.form-container{
+    /* margin-top: 5%; */
+    width: 1000px;
+    height: 800px;
+    background-color: rgb(30, 30, 30);
+}
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.form>div>input{
+    width: 90%;
+    height: 50px;
+    margin-top: 0px;
+    background-color: rgb(30, 30, 30);
+    border: none;
+    border-bottom: 1px solid rgb(211, 211, 211);
+}
+#email{
+    margin-left: 20px;
+    
+}
+#phone{
+    margin-left: 20px;
+}
+label{
+   
+    color: rgb(146, 144, 144);
+    font-size: 22px;
+    margin-left: 15px;
+}
+.form>div>input::placeholder{
+    color:white;
+    font-size: 20px;
+}
+.label-content{
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+#first-name{
+    margin-left: 10px;
+}
+#message{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 190%;
+    background-color: hsl(0, 0%, 12%);
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#message::placeholder{
+   color: white;
+   font-size: 20px;
+
+}
+.button>button{
+    width:80%;
+    height: 50px;
+    color: white;
+    background-color: rgb(30, 115, 227);
+    border: none;
+    font-size: 21px;
+}
+.button{
+    margin-top: 30px;
+    text-align: center;
+}
+.button>button:hover{
+    background-color:hsl(0, 0%, 12%);
+    border: 1px solid white;
+}
+.button>p{
+    color: white;
+
+    }
+ .third-page{
+    margin-top: 10%;
+    padding-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.MY-completed{
+    display: flex;
+}
+.for-line-s{
+    width: 90px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(41, 136, 245);
+}
+.MY-completed-heading{
+    color: white;
+    font-size: 30px;
+}
+.Project-second{
+    display: flex;
+    gap: 10px;
+}
+.heading-project{
+    color: white;
+    font-size: 100px;
+    font-weight: 900;
+}
+.image{
+    margin-top: 30px;
+}
+.my-comppl>p{
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+}
+.tesla{
+    padding-left: 30px;
+    border-radius: 15px;
+    width: 400px;
+    height: 500px;
+    margin-top: 10%;
+    border: 1px solid rgb(79, 0, 154);
+}
+.tesla>img{
+    width: 380px;
+    /* padding-left: 10px; */
+    padding-top: 10px;
+}
+.tesla>h1{
+    color: white;
+    font-size: 40px;
+}
+.tesla>p{
+    color: gray;
+    font-size: 20px;
+}
+.under-button{
+    display: flex;
+    gap: 25px;
+}
+.IOS{
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(165, 223, 245);
+    color: white;
+    font-size: 16px;
+}
+.Android{
+    width: 140px;
+    height: 42px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(248, 209, 215);
+    color: red;
+    font-size: 16px;
+} 
+html{
+    scroll-behavior: smooth;
+}
+ .second-box-of-third-page{
+    margin-top: 60px;
+}
+.tesla-img{
+    background-color: black;
+    position: absolute;
+    left: 778px;
+    top: 2250px;
+    z-index: 1;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(0, 174, 255);
+}
+.tesla-img>img{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 3px;
+} 
+.img-twitter{
+    background-color: black;
+    position: absolute;
+    left: 778px;
+    top: 2840px;
+    z-index: 1;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(0, 174, 255);
+}
+.img-twitter>img{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 3px;
+} 
+.Grab-img{
+    background-color: black;
+    position: absolute;
+    left: 1510px;
+    top: 2010px;
+    z-index: 1;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(0, 174, 255);
+}
+.Grab-img>img{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.Slack-img{
+    background-color: black;
+    position: absolute;
+    left: 1510px;
+    top: 2600px;
+    z-index: 1;
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border: 2px solid rgb(0, 174, 255);
+}
+.Slack-img>img{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.tesla {
+    /* margin: 24px;
+    width: 50px;
+    height: 50px; */
+
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.1, 1.1);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  /* /mobile vie */
+
+ /* General Styles */
+
+/* Mobile View */
+@media only screen and (max-width: 768px) {
+
+    /* Adjusting layout for mobile screens */
+    nav {
+        grid-template-columns: 1fr; /* Stack navigation items */
+    }
+    
+    .List-of-rightSide > ul {
+        flex-direction: column; /* Stack menu items vertically */
+        gap: 20px; /* Reduce gap for mobile */
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    .First-Page {
+        grid-template-columns: 1fr; /* Stack sections vertically */
+        padding-left: 10px;
+        padding-top: 10%;
+    }
+
+    .Daisy-heading > h1 {
+        font-size: 50px; /* Adjust text size */
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .Murillo-content {
+        flex-direction: column; /* Stack content vertically */
+        margin-top: 10px;
+    }
+
+    .Left-Side > p {
+        font-size: 16px; /* Smaller font size */
+        margin-top: 10px;
+    }
+
+    .Right-side > img {
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+        max-width: 300px; /* Limit image size */
+    }
+
+    /* Second page */
+    .Second-page {
+        flex-direction: column; /* Stack sections vertically */
+        margin-top: 10%;
+    }
+
+    .Upper-containt {
+        grid-template-columns: 1fr; /* Stack the items */
+        padding-top: 5%;
+    }
+
+    .Second-One, .Third-one, .Fourth-one {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+        height: auto; /* Adjust height for mobile */
+    }
+
+    .Second-One > h1, .Third-one > h1, .Fourth-one > h1 {
+        font-size: 50px;
+    }
+
+    .Second-One > p, .Third-one > p, .Fourth-one > p {
+        font-size: 16px;
+    }
+
+    /* Adjusting the project section */
+    .third-page {
+        padding-left: 0;
+        display: block;
+    }
+
+    .Project-second {
+        display: block; /* Stack project details vertically */
+    }
+
+    .tesla {
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+    }
+
+    .tesla > img {
+        width: 100%; /* Make the image responsive */
+    }
+
+    .tesla > h1 {
+        font-size: 30px; /* Smaller title */
+    }
+
+    .tesla > p {
+        font-size: 16px; /* Adjust text size */
+    }
+
+    /* Mobile footer (contact section) */
+    .contact-header {
+        grid-template-columns: 1fr; /* Stack contact form and icons */
+    }
+
+    .form-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form {
+        grid-template-columns: 1fr; /* Stack input fields vertically */
+    }
+
+    .form > div > input {
+        width: 100%; /* Full width of the form inputs */
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .button > button {
+        width: 100%; /* Make button full width */
+        font-size: 18px;
+    }
+
+    .Icons > ul {
+        gap: 20px;
+    }
+
+    .Icons > ul > li {
+        width: 40px;
+        height: 40px;
+    }
+    #message{
+        width: 90%;
+        margin-right: 30%;
+    }
+
+}
+
+/* Very Small Mobile View */
+@media only screen and (max-width: 480px) {
+
+    /* Further adjustments for smaller mobile screens */
+    .Daisy-heading > h1 {
+        font-size: 40px; /* Adjust for very small screens */
+    }
+
+    .Murillo-content {
+        margin-top: 20px;
+    }
+
+    .Left-Side > p {
+        font-size: 14px; /* Smaller font for small screens */
+        margin-top: 0;
+    }
+
+    .tesla > h1 {
+        font-size: 25px; /* Further reduce text size */
+    }
+
+    .tesla > p {
+        font-size: 14px;
+    }
+
+    .contact-heading-form {
+        font-size: 50px;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .button > button {
+        font-size: 16px;
+    }
+
+}
